@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
                tvText.setBackgroundColor(getResources().getColor(R.color.green));
                tvText.setTextSize(35);
                rotation+=45.0F;
+               if (rotation >=181){
+                   rotation=0.0F;
+               }
             }
         });
 
